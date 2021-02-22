@@ -1,16 +1,3 @@
-const Projects = [
-    {
-        title:"project 1",
-        date: Date.now(),
-    },
-    {
-        title:"project 2",
-        date:Date.now(),
-    },
-    {
-        title:"project 3",
-        date:Date.now(),
-    },
-]
+const Projects = [];
 
-module.exports = Projects
+module.exports = Projects;
