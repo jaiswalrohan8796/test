@@ -8,4 +8,8 @@ const newProductForm = (req, res, next) => {
     res.send("form to upload");
 };
 
+const handleNewProduct = (req, res, next) => {
+    res.send("uploaded succesfully");
+};
+
 module.exports = { getAllProducts, newProductForm, handleNewProduct };
